@@ -1,0 +1,18 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Tisa tandel",
+      "subject": "Mathematics",
+      "email": "tisatandel@gmail.com"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Raj DAve",
+      "class": "10th",
+      "teacherId": 1
+    }
+  ]
+}
