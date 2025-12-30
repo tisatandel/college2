@@ -1,18 +1,30 @@
 {
   "teachers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Tisa tandel",
-      "subject": "Mathematics",
-      "email": "tisatandel@gmail.com"
+      "phoneno": "6351617713",
+      "email": "tisatandel@gmail.com",
+      "address": "valsad",
+      "gender": "Female"
     }
   ],
   "students": [
     {
-      "id": 1,
-      "name": "Raj DAve",
-      "class": "10th",
-      "teacherId": 1
+      "id": "1",
+      "name": "Raj Dave",
+      "phoneno": "6351617714",
+      "email": "raj@gmail.com",
+      "address": "valsad",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "twisa",
+      "phoneno": "9904240331",
+      "email": "twisa@tag97.com",
+      "address": "valsad",
+      "gender": "Female"
     }
   ]
 }

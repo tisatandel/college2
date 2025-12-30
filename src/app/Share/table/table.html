@@ -1,1 +1,32 @@
-<p>table works!</p>
+<table border="1">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Gender</th>
+    <th>Action</th>
+  </tr>
+
+  @for (detail of data; track $index) {
+  <tr>
+    <td>{{detail.id}}</td>
+    <td>{{ detail.name }}</td>
+    <td>{{ detail.phoneno }}</td>
+    <td>{{ detail.email }}</td>
+    <td>{{ detail.address }}</td>
+    <td>{{ detail.gender }}</td>
+
+    <!-- <td>
+      <div class="modal-box">
+        <button class="edit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="edit.emit( $index)">Edit
+        </button>
+      </div>
+      <! <button (click)="edit.emit($index); $event.stopPropagation()">Edit</button></div> -->
+    <!--<button (click)="delete.emit($index); $event.stopPropagation()">Delete</button>
+      <button (click)="onView(detail.email)">View</button>
+    </td> -->
+  </tr>
+  }
+</table>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-table',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './table.css',
 })
 export class Table {
+  @Input() data: any[] = [];
+  // @Output() edit = new EventEmitter<any>();
+  // @Output() remove = new EventEmitter<any>();
 
 }
